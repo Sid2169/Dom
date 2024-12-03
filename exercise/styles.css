@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* To-Do List Styles */
+  #todo-list input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  #todo-list button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #todo-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  #task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #task-list li {
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Form Section Styles */
+  form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Dynamic Content Styles */
+  #content-placeholder {
+    padding: 10px;
+    border: 1px dashed #ccc;
+    margin-top: 20px;
+  }
+  
+  /* Animation Section Styles */
+  #animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347;
+    margin-bottom: 20px;
+    transition: transform 1s ease;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #138496;
+  }
+  
