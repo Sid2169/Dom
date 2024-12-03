@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>DOM Manipulation Practice</h1>
+    <p>Learn to interact with the DOM using JavaScript.</p>
+  </header>
+
+  <!-- To-Do List Section -->
+  <section id="todo-list">
+    <h2>To-Do List</h2>
+    <input type="text" id="new-task" placeholder="Enter a new task">
+    <button id="add-task">Add Task</button>
+    <ul id="task-list">
+      <!-- Tasks will be dynamically added here -->
+    </ul>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form-section">
+    <h2>Form Handling</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Dynamic Content Section -->
+  <section id="dynamic-content">
+    <h2>Dynamic Content</h2>
+    <button id="load-content">Load Content</button>
+    <div id="content-placeholder">
+      <!-- Content will be loaded dynamically here -->
+    </div>
+  </section>
+
+  <!-- Animation Section -->
+  <section id="animation-section">
+    <h2>Animations</h2>
+    <div id="animated-box" class="box"></div>
+    <button id="animate-box">Animate Box</button>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
